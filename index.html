@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix - 后端工程师</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            background: #000000;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 40px 0;
+            background: #1a1a1a;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #cccccc;
+            margin-bottom: 20px;
+        }
+
+        .tagline {
+            font-size: 1em;
+            color: #aaaaaa;
+        }
+
+        nav {
+            margin-top: 30px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 0 15px;
+            padding: 12px 24px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #2980b9;
+        }
+
+        .section {
+            background: #1a1a1a;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+        }
+
+        .section h2 {
+            color: #ffffff;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .intro {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #e0e0e0;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .skill-category {
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .skill-category h3 {
+            color: #3498db;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .skill-category ul {
+            list-style: none;
+        }
+
+        .skill-category li {
+            padding: 5px 0;
+            color: #e0e0e0;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #aaaaaa;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Felix</h1>
+            <div class="subtitle">后端工程师</div>
+            <div class="tagline">Go / PHP · SaaS · 出海产品 · 支付 & 订阅系统</div>
+            <div class="tagline">重庆 - 12+ 年后端经验</div>
+            <nav>
+                <a href="/resume">查看简历</a>
+                <a href="https://github.com/felixfw1990" target="_blank">GitHub</a>
+            </nav>
+        </header>
+
+        <section class="section">
+            <h2>🔍 个人简介</h2>
+            <div class="intro">
+                <p>拥有 12+ 年后端开发经验，长期参与 <strong>真实商业化产品</strong> 的设计与落地，覆盖 <strong>SaaS、订阅制产品、支付结算、出海 Web3 项目</strong>
+                    等场景。</p>
+                <p>具备从 <strong>0到1 系统搭建</strong>、擅长复杂业务拆解、跨团队协作及小规模团队管理经验。</p>
+                <p>熟悉 <strong>Stripe / Apple / Google 支付与订阅体系</strong>，能够在高业务不确定性下保证系统稳定交付。</p>
+                <p
+                    style="margin-top: 20px; padding: 15px; background: #2a2a2a; border-left: 4px solid #3498db; border-radius: 4px; color: #e0e0e0;">
+                    <strong>擅长方向：</strong><br>
+                    业务复杂度高、支付链路长、系统需长期演进的后端系统
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>🧠 核心技能</h2>
+            <div class="skills">
+                <div class="skill-category">
+                    <h3>后端开发</h3>
+                    <ul>
+                        <li>Go</li>
+                        <li>PHP</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>架构设计</h3>
+                    <ul>
+                        <li>RESTful API</li>
+                        <li>模块化设计</li>
+                        <li>基础系统架构搭建</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>数据库</h3>
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>Redis</li>
+                        <li>Elasticsearch</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>云服务 & DevOps</h3>
+                    <ul>
+                        <li>Vercel</li>
+                        <li>AWS (Lambda / SES / SNS)</li>
+                        <li>Docker</li>
+                        <li>Linux, Nginx</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>支付与订阅</h3>
+                    <ul>
+                        <li>Stripe / Stripe Connect</li>
+                        <li>Apple Store Connect</li>
+                        <li>Google Play Billing</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web3</h3>
+                    <ul>
+                        <li>Solidity</li>
+                        <li>合约交互（Go）</li>
+                        <li>钱包登录</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>🚀 代表项目</h2>
+            <div style="margin-bottom: 30px;">
+                <h3 style="color: #ffffff; margin-bottom: 10px;">Eventflo｜下一代区块链票务平台</h3>
+                <p style="color: #cccccc; margin-bottom: 15px;">Go / React / MongoDB / Stripe Connect / AWS · 2024.10 –
+                    2025.07</p>
+                <p><a href="https://eventflo.io/" target="_blank" style="color: #3498db;">https://eventflo.io/</a></p>
+                <p style="margin-top: 10px; color: #e0e0e0;">面向演唱会、大型活动的在线票务系统，通过 NFT 形式永久存储门票，支持二级流通与收藏。单项目活动销售额累计 50
+                    万澳币（百万级人民币）。</p>
+            </div>
+
+            <div style="margin-bottom: 30px;">
+                <h3 style="color: #ffffff; margin-bottom: 10px;">Deputy｜去中心化网络钱包</h3>
+                <p style="color: #cccccc; margin-bottom: 15px;">Go / Vercel / MongoDB / AWS · 2023.07 – 2024.09</p>
+                <p><a href="https://deputy.network/" target="_blank" style="color: #3498db;">https://deputy.network/</a>
+                </p>
+                <p style="margin-top: 10px; color: #e0e0e0;">解决 Web3 中无法通过 Web2 联系方式转账的问题，支持邮箱 / 短信 + 钱包的混合交易模式。获得
+                    Antler
+                    Australia 种子轮投资。</p>
+            </div>
+
+            <div style="margin-bottom: 30px;">
+                <h3 style="color: #ffffff; margin-bottom: 10px;">Pinktech｜女性 AI 助手与生活管理应用</h3>
+                <p style="color: #cccccc; margin-bottom: 15px;">Go / React / Flutter / Apple & Google 订阅体系 · 2025.08 –
+                    2026.01</p>
+                <p><a href="https://www.pinktech.ai/" target="_blank"
+                        style="color: #3498db;">https://www.pinktech.ai/</a></p>
+                <p style="margin-top: 10px; color: #e0e0e0;">后端系统与用户体系设计，Apple Store / Google Play 订阅支付接入，多登录方式支持。</p>
+            </div>
+
+            <div>
+                <h3 style="color: #ffffff; margin-bottom: 10px;">Stamsel｜企业在线办公平台</h3>
+                <p style="color: #cccccc; margin-bottom: 15px;">PHP / Go / MongoDB / Elasticsearch / Swoole · 2016.06 –
+                    2023.07</p>
+                <p><a href="https://www.stamsel.com/" target="_blank"
+                        style="color: #3498db;">https://www.stamsel.com/</a></p>
+                <p style="margin-top: 10px; color: #e0e0e0;">覆盖企业管理、文件存储、聊天、社交主页等功能，参与系统长期演进与性能优化。</p>
+            </div>
+        </section>
+
+        <section class="section contact">
+            <h2>📫 联系方式</h2>
+            <p style="margin-top: 20px;">
+                <a href="https://github.com/felixfw1990" target="_blank">GitHub</a>
+                <a href="mailto:felixfw1111@gmail.com">Email</a>
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Felix. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

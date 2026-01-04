@@ -1,0 +1,20 @@
+title: Felix - 后端工程师
+description: 个人 GitHub Pages 站点
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# 导航
+navigation:
+  - title: 首页
+    url: /
+  - title: 简历
+    url: /resume
+
+# 作者信息
+author:
+  name: Felix
+  email: felixfw1111@gmail.com
+  github: felixfw1990
+

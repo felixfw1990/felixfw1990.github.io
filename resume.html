@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felix - 简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            background: #000000;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 40px 0;
+            background: #1a1a1a;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #cccccc;
+            margin-bottom: 20px;
+        }
+
+        .tagline {
+            font-size: 1em;
+            color: #aaaaaa;
+        }
+
+        nav {
+            margin-top: 30px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 0 15px;
+            padding: 12px 24px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #2980b9;
+        }
+
+        .section {
+            background: #1a1a1a;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+        }
+
+        .section h2 {
+            color: #ffffff;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .section h3 {
+            color: #ffffff;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .section p {
+            color: #e0e0e0;
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        .section ul {
+            color: #e0e0e0;
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        .section strong {
+            color: #ffffff;
+        }
+
+        .section a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .section a:hover {
+            text-decoration: underline;
+        }
+
+        .quote {
+            margin: 20px 0;
+            padding: 15px;
+            background: #2a2a2a;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+            color: #e0e0e0;
+        }
+
+        .divider {
+            height: 1px;
+            background: #333;
+            margin: 30px 0;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #aaaaaa;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Felix</h1>
+            <div class="subtitle">后端工程师 / 高级后端工程师</div>
+            <div class="tagline">Go / PHP · SaaS · 出海产品 · 支付 & 订阅系统</div>
+            <div class="tagline">重庆（可远程）｜12+ 年后端经验</div>
+            <nav>
+                <a href="/">返回首页</a>
+                <a href="https://github.com/felixfw1990" target="_blank">GitHub</a>
+            </nav>
+        </header>
+
+        <section class="section">
+            <h2>🔍 个人简介</h2>
+            <p>拥有 12+ 年后端开发经验，长期参与 <strong>真实商业化产品</strong> 的设计与落地，覆盖 <strong>SaaS、订阅制产品、支付结算、出海 Web3 项目</strong> 等场景。</p>
+            <p>具备从 <strong>0到1 系统搭建</strong>、擅长复杂业务拆解、跨团队协作及小规模团队管理经验。</p>
+            <p>熟悉 <strong>Stripe / Apple / Google 支付与订阅体系</strong>，能够在高业务不确定性下保证系统稳定交付。</p>
+            <div class="quote">
+                <strong>擅长方向：</strong><br>
+                业务复杂度高、支付链路长、系统需长期演进的后端系统
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>🧠 核心技能</h2>
+            <ul>
+                <li><strong>后端开发</strong>: Go, PHP, Node.js</li>
+                <li><strong>架构设计</strong>: RESTful API, 模块化设计, 基础系统架构搭建</li>
+                <li><strong>数据库</strong>: MongoDB, Redis, Elasticsearch, MySQL</li>
+                <li><strong>云服务 & DevOps</strong>: Vercel, AWS (Lambda / SES / SNS), Docker, Linux, Nginx</li>
+                <li><strong>支付与订阅</strong>:
+                    <ul style="margin-top: 5px;">
+                        <li>Stripe / Stripe Connect</li>
+                        <li>Apple Store Connect</li>
+                        <li>Google Play Billing</li>
+                    </ul>
+                </li>
+                <li><strong>Web3</strong>: Solidity, 合约交互（Go）, 钱包登录</li>
+                <li><strong>前端协作</strong>: React, Vue.js, Flutter（接口与业务拆解）</li>
+                <li><strong>工程效率</strong>: AI 工程化落地，显著提升团队开发效率（5–10 倍）</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>💼 工作经历</h2>
+            
+            <h3>重庆尤偌纳斯科技有限公司</h3>
+            <p><strong>后端工程师 / 高级后端工程师</strong></p>
+            <p style="color: #aaaaaa; margin-bottom: 15px;">2016.06 – 至今</p>
+            <ul>
+                <li>参与并长期维护多个 <strong>在线商业化产品</strong>，涵盖企业办公、区块链钱包、票务平台、AI 应用</li>
+                <li>负责核心后端模块设计与实现，包括：
+                    <ul style="margin-top: 5px;">
+                        <li>用户与权限体系</li>
+                        <li>支付 / 订阅 / 订单系统</li>
+                        <li>跨系统登录与账号体系</li>
+                    </ul>
+                </li>
+                <li>在多个项目中承担 <strong>系统结构优化与技术决策角色</strong></li>
+                <li>曾带领 3–5 人小团队进行任务拆解与交付</li>
+                <li>推动团队 <strong>AI 工程化流程</strong>，将开发效率提升约 <strong>5–10 倍</strong></li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <h3>重庆大家广告有限公司</h3>
+            <p><strong>PHP 后端工程师</strong></p>
+            <p style="color: #aaaaaa; margin-bottom: 15px;">2012.06 – 2016.05</p>
+            <ul>
+                <li>参与互联网产品的后端开发与维护</li>
+                <li>负责业务模块实现、需求拆解及上线支持</li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <h3>重庆三根科技有限公司</h3>
+            <p><strong>软件开发工程师</strong></p>
+            <p style="color: #aaaaaa; margin-bottom: 15px;">2011.09 – 2012.05</p>
+            <ul>
+                <li>参与电子点餐系统后端开发</li>
+                <li>实现管理端业务逻辑及前后端接口对接</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>🚀 代表项目</h2>
+            
+            <h3>Eventflo｜下一代区块链票务平台</h3>
+            <p><strong>Go / React / MongoDB / Stripe Connect / AWS</strong></p>
+            <p style="color: #aaaaaa; margin-bottom: 10px;">2024.10 – 2025.07</p>
+            <p><a href="https://eventflo.io/" target="_blank">https://eventflo.io/</a></p>
+            <p style="margin-top: 15px;"><strong>项目亮点：</strong></p>
+            <ul>
+                <li>面向演唱会、大型活动的在线票务系统</li>
+                <li>通过 NFT 形式永久存储门票，支持二级流通与收藏</li>
+            </ul>
+            <p style="margin-top: 15px;"><strong>我的职责：</strong></p>
+            <ul>
+                <li>后端系统结构设计与核心模块实现</li>
+                <li>Stripe Connect 多商户收款与分账</li>
+                <li>用户登录体系（跨项目）</li>
+                <li>订单、预售、交易系统设计</li>
+                <li>物联网设备（啤酒机）支付链路设计与接入</li>
+            </ul>
+            <p style="margin-top: 15px;"><strong>业务成果：</strong></p>
+            <ul>
+                <li>多次支持客户单月售票 <strong>数千张</strong></li>
+                <li>单项目活动销售额累计 <strong>50 万澳币（百万级人民币）</strong></li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <h3>Deputy｜去中心化网络钱包</h3>
+            <p><strong>Go / Vercel / MongoDB / AWS</strong></p>
+            <p style="color: #aaaaaa; margin-bottom: 10px;">2023.07 – 2024.09</p>
+            <p><a href="https://deputy.network/" target="_blank">https://deputy.network/</a></p>
+            <p style="margin-top: 15px;"><strong>项目亮点：</strong></p>
+            <ul>
+                <li>解决 Web3 中无法通过 Web2 联系方式转账的问题</li>
+                <li>支持邮箱 / 短信 + 钱包的混合交易模式</li>
+                <li>获得 <strong>Antler Australia 种子轮投资</strong></li>
+            </ul>
+            <p style="margin-top: 15px;"><strong>我的职责：</strong></p>
+            <ul>
+                <li>后端核心逻辑设计与实现</li>
+                <li>用户登录（MetaMask + Web2 登录）</li>
+                <li>Stripe 支付接入</li>
+                <li>用户交易与充值订单系统</li>
+                <li>邮件、短信服务集成</li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <h3>Pinktech｜女性 AI 助手与生活管理应用</h3>
+            <p><strong>Go / React / Flutter / Apple & Google 订阅体系</strong></p>
+            <p style="color: #aaaaaa; margin-bottom: 10px;">2025.08 – 2026.01</p>
+            <p><a href="https://www.pinktech.ai/" target="_blank">https://www.pinktech.ai/</a></p>
+            <p style="margin-top: 15px;"><strong>我的职责：</strong></p>
+            <ul>
+                <li>后端系统与用户体系设计</li>
+                <li>Apple Store / Google Play 订阅支付接入</li>
+                <li>多登录方式（Apple / Google）</li>
+                <li>用户订阅、权限与状态管理</li>
+                <li>AI Prompt 工程优化</li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <h3>Stamsel｜企业在线办公平台</h3>
+            <p><strong>PHP / Go / MongoDB / Elasticsearch / Swoole</strong></p>
+            <p style="color: #aaaaaa; margin-bottom: 10px;">2016.06 – 2023.07</p>
+            <p><a href="https://www.stamsel.com/" target="_blank">https://www.stamsel.com/</a></p>
+            <ul>
+                <li>覆盖企业管理、文件存储、聊天、社交主页等功能</li>
+                <li>参与系统长期演进与性能优化</li>
+                <li>后期参与 Web3 合约与跨链桥接入</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>🎓 教育背景</h2>
+            <p><strong>重庆电子科技大学</strong> 自考本科 · 计算机科学与应用</p>
+        </section>
+
+        <section class="section contact">
+            <h2>📫 联系方式</h2>
+            <p style="margin-top: 20px;">
+                <div style="margin-bottom: 15px;">
+                    <strong>GitHub:</strong> 
+                    <a href="https://github.com/felixfw1990" target="_blank">https://github.com/felixfw1990</a>
+                </div>
+                <div>
+                    <strong>Email:</strong> 
+                    <a href="mailto:felixfw1111@gmail.com">felixfw1111@gmail.com</a>
+                </div>
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Felix. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
+

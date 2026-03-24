@@ -9,8 +9,8 @@
 
 ## 访问
 
-- 主页: https://felixfw1990.github.io/
-- 简历: https://felixfw1990.github.io/resume
+- 主页: https://felixfw1.github.io/
+- 简历: https://felixfw1.github.io/resume
 
 ## 本地开发
 

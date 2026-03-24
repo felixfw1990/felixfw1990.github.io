@@ -143,6 +143,6 @@ https://www.stamsel.com/
 
 ## 📫 联系方式
 
-- GitHub: `https://github.com/felixfw1990`
+- GitHub: `https://github.com/felixfw1`
 - Email: `felixfw1111@gmail.com`
 
